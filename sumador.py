@@ -1,2 +1,2 @@
-def sumador(a, b):
-    return a + b
+def sumador(lista):
+    return sum(lista)
