@@ -1,2 +1,6 @@
-def sumador(lista):
-    return sum(lista)
+def sumador(*a):
+    return sum(*a)
+
+
+def printsum(*args, **kargs):
+    print(kargs)
